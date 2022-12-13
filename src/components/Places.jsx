@@ -9,7 +9,10 @@ const Places = () => {
                 <div className=" col-span-3  mb-6 relative mx-auto w-[90%] cursor-pointer">
                     <img src="/assets/images/destination-1.jpg" className="w-full" />
                     <div className="absolute w-full h-full bg-gradient-to-t from-slate-900 to-transparent hover:bg-slate-900 hover:opacity-70 duration-500 opacity-70 rounded-md top-0">
-                    
+                            <div className="absolute bottom-10 left-10">
+                                <h2 className="courgetter text-orange-300 text-2xl">Kanifushi</h2> 
+                                <h1 className="text-white text-4xl">Maldivas</h1>
+                            </div>
                     </div>
                 </div>
                 <div className=" col-span-3  mb-6 relative mx-auto w-[90%] cursor-pointer">
