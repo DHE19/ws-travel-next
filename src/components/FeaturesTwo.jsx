@@ -6,15 +6,15 @@ import {GlobeAmericasIcon, CurrencyDollarIcon, ShieldCheckIcon } from '@heroicon
 const list =[
     {
         icon:GlobeAmericasIcon,
-        title: 'Tour Guide'
+        title: 'Guía Turístico'
     },
     {
         icon:CurrencyDollarIcon,
-        title: 'Friendly Price'
+        title: 'Precio Amigable'
     },
     {
         icon:ShieldCheckIcon,
-        title: 'Reliable tour'
+        title: 'Tour Confiable'
     }
 ]
 
