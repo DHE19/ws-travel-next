@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@300;500;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden
+  
+}
+
+.show-menu{
+  @apply duration-300 ease-out pt-6 ;
+  top: 3.75rem !important;
+}
+
+.hide-menu{
+  top: -16rem !important;
+  @apply ease-in-out duration-300;
+}
+
+.hidden-menu{
+  @apply hidden;
+}
+
+.nav-items{
+  @apply flex lg:gap-10 justify-around flex-col lg:flex-row absolute lg:relative w-[100vw] lg:w-full left-0 z-10 lg:z-0 -top-64 lg:-top-0 bg-sky-500 lg:bg-transparent;
+}
+
+.button-style-one{
+  @apply px-4 py-[0.6rem] mx-2 bg-white text-sky-500 hover:bg-transparent  hover:ring-2 hover:ring-white hover:text-white rounded-lg;
+}
+
+.button-style-two{
+  @apply px-4 py-[0.6rem] mx-2 text-white bg-sky-500 hover:bg-transparent hover:ring-2 hover:ring-slate-300 hover:text-slate-800 rounded-md;
+}
+.button-style-three{
+  @apply px-4 py-[0.6rem] mx-2 hover:text-slate-800  hover:ring-sky-500 bg-transparent ring-2 ring-slate-300  rounded-md;
+}
+
+.button-style-four{
+  @apply px-2 md:px-4 py-3 text-white bg-sky-500 rounded-tr-md rounded-br-md;
+}
+
+
+
+.nav-item{
+  @apply hover:border-b-2 hover:border-white
+}
+
+
+.slogan{
+  @apply text-3xl text-center md:text-left text-orange-400;
+  font-family: Courgette,sans-serif !important;
+}
+
+.courgetter{
+  font-family: Courgette,sans-serif !important;
+}
