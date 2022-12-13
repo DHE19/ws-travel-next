@@ -4,7 +4,7 @@ export const navLinks =[
         link:'/home'
     },
     {
-        name:'About us',
+        name:'Nosotros',
         link:'/about'
     },
     {
@@ -12,7 +12,7 @@ export const navLinks =[
         link:'/tours'
     },
     {
-        name:'Destinations',
+        name:'Destinos',
         link:'/destinations'
     },
     {
@@ -20,7 +20,7 @@ export const navLinks =[
         link:'/blog'
     },
     {
-        name:'Contact Us',
+        name:'Contactanos',
         link:'/contact'
     }
 ]
